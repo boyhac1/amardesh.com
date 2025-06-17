@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>প্রভাত ফেরি - সর্বশেষ বাংলা সংবাদ | Khoradi's properties Ltd.</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="প্রভাত ফেরি - আপনার বিশ্বস্ত বাংলা নিউজ পোর্টাল। রাজনীতি, খেলাধুলা, আন্তর্জাতিক, প্রযুক্তি, স্বাস্থ্য সহ সকল সর্বশেষ সংবাদ পড়ুন। Khoradi's properties Ltd. এর একটি উদ্যোগ।">
+    <meta name="keywords" content="বাংলা সংবাদ, বাংলাদেশ, খবর, প্রভাত ফেরি, রাজনীতি, খেলাধুলা, প্রযুক্তি">
+    <meta name="author" content="Khoradi's properties Ltd.">
+
+    <!-- Google Fonts: Noto Serif Bengali -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme">
+
+    <!-- Header Section -->
+    <header id="main-header" class="sticky">
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html"><h1>প্রভাত ফেরি</h1></a>
+            </div>
+            <nav class="main-nav" id="main-nav">
+                <button class="nav-close-btn" id="nav-close-btn" aria-label="মেনু বন্ধ করুন"><i class="fa-solid fa-xmark"></i></button>
+                <ul>
+                    <li><a href="#">জাতীয়</a></li>
+                    <li><a href="#">আন্তর্জাতিক</a></li>
+                    <li><a href="#">রাজনীতি</a></li>
+                    <li><a href="#">খেলাধুলা</a></li>
+                    <li><a href="#">প্রযুক্তি</a></li>
+                    <li><a href="#">স্বাস্থ্য</a></li>
+                    <li><a href="#">বিনোদন</a></li>
+                </ul>
+            </nav>
+            <div class="header-utils">
+                <div id="live-time"></div>
+                <button id="theme-switcher" class="util-btn" aria-label="থিম পরিবর্তন করুন"><i class="fa-solid fa-circle-half-stroke"></i></button>
+                <button id="login-btn" class="util-btn" aria-label="লগইন করুন"><i class="fa-solid fa-user"></i></button>
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="মেনু খুলুন"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breaking News Ticker -->
+    <section class="breaking-news">
+        <div class="container">
+            <span class="breaking-title">ব্রেকিং</span>
+            <div class="ticker-wrap">
+                <div class="ticker" id="breaking-news-ticker">
+                    <!-- ব্রেকিং নিউজ এখানে লোড হবে -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <main class="container main-layout">
+        <!-- News Grid Section -->
+        <section class="main-news-grid">
+            <div class="section-title">
+                <h2>সকল সংবাদ</h2>
+            </div>
+            <div class="news-grid-container" id="news-grid">
+                <!-- ডাইনামিক নিউজ কার্ড এখানে লোড হবে -->
+                <div class="loader-container">
+                    <div class="loader"></div>
+                    <p>খবর লোড হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sidebar Section -->
+        <aside class="sidebar">
+            <div class="widget">
+                <h3 class="widget-title">সর্বশেষ</h3>
+                <ul class="news-list" id="latest-news-list">
+                    <!-- সর্বশেষ সংবাদ তালিকা এখানে লোড হবে -->
+                </ul>
+            </div>
+            <div class="widget">
+                <h3 class="widget-title">জনপ্রিয়</h3>
+                <ul class="news-list" id="popular-news-list">
+                     <!-- জনপ্রিয় সংবাদ তালিকা এখানে লোড হবে -->
+                </ul>
+            </div>
+            <div class="widget ai-widget">
+                <h3 class="widget-title"><i class="fa-solid fa-robot"></i> AI সারসংক্ষেপ</h3>
+                <p>শীঘ্রই আসছে! কৃত্রিম বুদ্ধিমত্তার মাধ্যমে দীর্ঘ খবরকে সংক্ষিপ্ত আকারে পড়ার সুবিধা।</p>
+            </div>
+            <div class="widget">
+                <h3 class="widget-title">বিজ্ঞাপন</h3>
+                <div class="ad-placeholder">
+                    <p>বিজ্ঞাপনের জন্য নির্ধারিত স্থান</p>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h2 class="logo-text">প্রভাত ফেরি</h2>
+                    <p>
+                        "প্রভাত ফেরি" বস্তুনিষ্ঠ ও নিরপেক্ষ সংবাদ পরিবেশনে প্রতিজ্ঞাবদ্ধ। সত্যের সন্ধানে আমরা আপোসহীন।<br>
+                        একটি উদ্যোগ - <strong>Khoradi's properties Ltd.</strong>
+                    </p>
+                     <p>© <span id="copyright-year"></span> সর্বস্বত্ব সংরক্ষিত।</p>
+                </div>
+                <div class="footer-section links">
+                    <h4>গুরুত্বপূর্ণ লিংক</h4>
+                    <ul>
+                        <li><a href="#">আমাদের সম্পর্কে</a></li>
+                        <li><a href="#">যোগাযোগ</a></li>
+                        <li><a href="#">গোপনীয়তা নীতি</a></li>
+                        <li><a href="#">ব্যবহারের শর্তাবলী</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section social">
+                    <h4>সামাজিক মাধ্যম</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="ফেসবুক"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="ইউটিউব"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="ইমেইল"><i class="fas fa-envelope"></i></a>
+                        <a href="#" aria-label="টুইটার"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">×</span>
+            <h2>লগইন করুন</h2>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="email">ইমেইল</label>
+                    <input type="email" id="email" placeholder="আপনার ইমেইল দিন" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">পাসওয়ার্ড</label>
+                    <input type="password" id="password" placeholder="আপনার পাসওয়ার্ড দিন" required>
+                </div>
+                <button type="submit" class="btn-submit">লগইন</button>
+            </form>
+            <p class="modal-footer-text">অ্যাকাউন্ট নেই? <a href="#">নিবন্ধন করুন</a></p>
+        </div>
+    </div>
+    <div id="modal-overlay"></div>
+    
+    <!-- Firebase SDKs (use a specific version) -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
